@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ipcountrylookup" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="2" osVersion="*" schemaVersion="2013-03.2.0">
+  <Role name="MvcWebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=iplookup;AccountKey=wlR8u9Go9knEGJt3ufkObdBJIupkeaXxXFMCVsVBmN/f1r/OPjLRceD/hacxeh4r+U4np+WqZCycYb52wVdlTQ==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

@@ -1,0 +1,2 @@
+c:\users\jeremy\documents\visual studio 2012\Projects\ipcountrylookup\ipcountrylookup\bin\Debug\ServiceConfiguration.cscfg
+c:\users\jeremy\documents\visual studio 2012\Projects\ipcountrylookup\ipcountrylookup\bin\Debug\ServiceDefinition.csdef

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="iptocountryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="iptocountryModelStoreContainer">
+    <EntitySet Name="iptocountry" EntityType="iptocountryModel.Store.iptocountry" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="iptocountry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ipStart" Type="bigint" />
+    <Property Name="ipEnd" Type="bigint" />
+    <Property Name="countryCode" Type="varchar" MaxLength="4" />
+    <Property Name="countryName" Type="varchar" MaxLength="50" />
+  </EntityType>
+</Schema>
